@@ -52,4 +52,12 @@ model<- lm(y ~ x, data=df) # a simple regression model without any weight
 model # model output
 resid(model) # check residuals
 summary(model)
+## Interpretation of summary of regression model
 
+## Question 9 < ("Perform 1-way Analysis of variance to evaluate the overall effect of insect spray type from insectsprays data frame")
+data(InsectSprays)
+head(InsectSprays)
+help(InsectSprays)
+my_data <- InsectSprays[ , ]
+my_data
+levels(my_data$spray)
